@@ -1113,15 +1113,17 @@ a.article-title:hover {
 }
 .article-entry pre,
 .article-entry .highlight {
-  background: #2d2d2d;
+  background: transparent;
+  background-image: url("images/notepapr.gif");
   margin: 0 -20px;
   padding: 15px 20px;
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
   overflow: auto;
-  color: #ccc;
+  color: #000080;
   line-height: 22.400000000000002px;
+  font-size: 14pt;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1137,6 +1139,9 @@ a.article-title:hover {
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
+.article-entry pre {
+  background-image: none;
+}
 .article-entry pre code {
   background: none;
   text-shadow: none;
@@ -1149,6 +1154,7 @@ a.article-title:hover {
 }
 .article-entry .highlight table {
   margin: 0;
+  margin-left: 15%;
   width: auto;
 }
 .article-entry .highlight td {
@@ -1177,7 +1183,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 24.640000000000004px;
 }
 .article-entry .highlight .line.marked {
   background: #515151;
@@ -1187,7 +1193,7 @@ a.article-title:hover {
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  background: #2d2d2d;
+  background: transparent;
   padding: 15px 20px 15px 0;
 }
 .article-entry .gist .gist-file {
@@ -1213,7 +1219,7 @@ a.article-title:hover {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: transparent;
   color: #999;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;

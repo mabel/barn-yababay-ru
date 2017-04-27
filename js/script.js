@@ -8,7 +8,7 @@
      template: '<img :src="choosen">',
      computed: {
           choosen: function(){
-              if(/barn\.yababay\.ru/.test(window.location.host)) {return this.remote;}
+              if(/barn\.yababay\.ru/.test(window.location.host)) {return "http://cdn.yababay.ru/img/tumblr" + this.local.replace('/img', '');}
               return this.local;
           }
      }
