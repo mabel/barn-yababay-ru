@@ -5,7 +5,8 @@ module.exports = {
         sidebar: [
             '/',
             '/bio/',
-            '/valeriada/'
+            '/valeriada/',
+            '/a24/',
         ]
     }
 }
